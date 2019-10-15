@@ -20,5 +20,5 @@ app.get('/',(req,res)=>{
 })
 
 app.listen(process.env.PORT || 9000,() =>{
-    console.log('server on port 9000')
+    console.log('my server on port 9000')
 })
